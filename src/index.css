@@ -1,13 +1,169 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.rd-navbar-fullwidth .navbar-navigation-root-item {
+  padding: 0 14px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bloqueText{
+  height: 100%;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.iconosIndex{
+  justify-content: center;
+  display: flex;
+  height: 75px;
+}
+
+.bloqueIndex{
+  font-weight: bold; 
+  color: #19679e; 
+  font-size: 30 px; 
+  margin-bottom: 20px;
+  border-bottom: solid 5px #19679e;
+}
+
+.covid{
+  font-weight: bold; 
+  color: #19679e; 
+  margin-bottom: 20px;
+}
+
+.bloquePadre{
+  padding: 30px 0px;
+}
+
+.textBlock{ 
+  font-size: 16px;
+  padding-left: 25px;
+  text-align: justify;
+  font-size: inherit;
+}
+
+.leftBlock{
+  padding-left: 20px;
+}
+
+@media (max-width: 700px) {
+  /* .imageIndex{
+      background-image: url(images/index.png);
+  } */
+
+  .imageBlock{
+    display: none !important;
+  }
+
+  .imgIndex{
+    width: 500px;
+    padding-top: 30%;
+  }
+  
+  .paddingSection{
+      padding: 400px 0px !important;
+  }
+}
+
+@media (min-width: 700px) {
+  .paddingSection{
+    padding: 300px 0px 250px 0px !important;
+  }
+  /* .imageIndex{
+      background-image: url(images/index.png);
+  } */
+
+  .imgIndex{
+    width: 350px;
+    padding-top: 30%;
+  }
+}
+
+.rights {
+	font-size: 15px;
+}
+
+.rights-link {
+	font-weight: 400;
+	color: #171724;
+}
+
+.rights-link:hover {
+	color: #19679e;
+}
+
+.context-dark .rights-link {
+	color: #fff;
+}
+
+.context-dark .rights-link:hover {
+	color: #19679e;
+}
+
+.footer {
+  color: #aeaeb2 !important;
+  background-color: #23232f;
+}
+
+.section {
+  margin-top: 80px;
+}
+
+.spaceIcons > * {
+  margin-right: 15px;
+}
+
+.footerPadre {
+  padding: 20px 0px;
+}
+
+.mapSize {
+  width: 100% !important;
+  border: 0;
+}
+
+.imgServicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  color: black !important;
+  margin-right: 10px;
+}
+
+.nav-item:hover {
+  border-bottom: solid black;
+  transition-timing-function: linear;
+}
+
+.bandera {
+  height: 12px !important;
+}
+
+.divBandera{
+  background-color: #19679e;
+  margin: 3px 3px;
+  width: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+  cursor: pointer;
+}
+
+.socialButton {
+  text-decoration: none;
+  color: white;
+}
+
+.post-meta-link {
+  font-weight: 500;
+  color: inherit;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.post-boxed * + .post-text {
+  margin-top: 20px;
 }
