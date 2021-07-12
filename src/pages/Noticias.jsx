@@ -32,7 +32,7 @@ export const Noticias = () => {
                   </div>
                   <br/>
                   <h3 className="h3-small post-title">
-                    Estimada comunidad:
+                    A nuestros clientes, proveedores y comunidad en general:
                   </h3>
                   <div className="post-text">
                     En los últimos meses derivado de la pandemia de COVID-19,

@@ -1,9 +1,21 @@
 import React from "react";
 import "../blurb.css";
+import {
+  BrowserRouter as Router,
+  useHistory 
+} from "react-router-dom";
+import { Noticias } from "./Noticias";
 
 export const Inicio = () => {
+  let history = useHistory();
+
+  const handleClick = () => {
+    history.push("/Noticias");
+  }
+
   return (
     <>
+    <Router>
       <img
         src="/img/inicio/inicio_portada.png"
         style={{ width: "100%" }}
@@ -152,136 +164,6 @@ nueva normalidad.
           </div>
         </div>
         <div className="section">
-          <h2 className="text-center" data-animate='{"class":"fadeInUp"}'>
-            Algunos Mercados Verticales.
-          </h2>
-          <p
-            className="text-center"
-            style={{ fontWeight: 400, color: "black" }}
-          >
-            En Intosys nos especializamos para dominar cada mercado vertical de nuestros clientes.
-          </p>
-          <div
-            className="row justify-content-center justify-content-xl-between"
-            style={{ paddingBottom: 30, paddingTop: 20 }}
-          >
-            <div
-              className="col-sm-6 col-lg-3"
-              data-animate='{"class":"fadeInUp"}'
-            >
-              <article className="blurb blurb-boxed">
-                <div className="blurb-embed iconosIndex">
-                  <img src="/img/inicio/aerolineas.png" alt="" />
-                </div>
-                <div
-                  className="blurb-title"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  Aerolíneas
-                </div>
-              </article>
-            </div>
-            <div
-              className="col-sm-6 col-lg-3"
-              data-animate='{"class":"fadeInUp"}'
-            >
-              <article className="blurb blurb-boxed">
-                <div className="blurb-embed iconosIndex">
-                  <img src="/img/inicio/agroindustria.png" alt="" />
-                </div>
-                <div
-                  className="blurb-title"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  Agroindustria
-                </div>
-              </article>
-            </div>
-            <div
-              className="col-sm-6 col-lg-3"
-              data-animate='{"class":"fadeInUp"}'
-            >
-              <article className="blurb blurb-boxed">
-                <div className="blurb-embed iconosIndex">
-                  <img src="/img/inicio/Farmaceutica.png" alt="" />
-                </div>
-                <div
-                  className="blurb-title"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  Farmacéutica
-                </div>
-              </article>
-            </div>
-            <div
-              className="col-sm-6 col-lg-3"
-              data-animate='{"class":"fadeInUp"}'
-            >
-              <article className="blurb blurb-boxed">
-                <div className="blurb-embed iconosIndex">
-                  <img src="/img/inicio/manufactura.png" alt="" />
-                </div>
-                <div
-                  className="blurb-title"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  Manufactura
-                </div>
-              </article>
-            </div>
-          </div>
-          <div className="row row-30 row-md-40 justify-content-center justify-content-center">
-            <div
-              className="col-sm-6 col-lg-3"
-              data-animate='{"class":"fadeInUp"}'
-            >
-              <article className="blurb blurb-boxed">
-                <div className="blurb-embed iconosIndex">
-                  <img src="/img/inicio/mineria.png" alt="" />
-                </div>
-                <div
-                  className="blurb-title"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  Minería
-                </div>
-              </article>
-            </div>
-            <div
-              className="col-sm-6 col-lg-3"
-              data-animate='{"class":"fadeInUp"}'
-            >
-              <article className="blurb blurb-boxed">
-                <div className="blurb-embed iconosIndex">
-                  <img src="/img/inicio/retail.png" alt="" />
-                </div>
-                <div
-                  className="blurb-title"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  Retail
-                </div>
-              </article>
-            </div>
-            <div
-              className="col-sm-6 col-lg-3"
-              data-animate='{"class":"fadeInUp"}'
-            >
-              <article className="blurb blurb-boxed">
-                <div className="blurb-embed iconosIndex">
-                  <img src="/img/inicio/telecomunicaciones.png" alt="" />{" "}
-                </div>
-                <div
-                  className="blurb-title"
-                  style={{ display: "flex", justifyContent: "center" }}
-                >
-                  TI y Telecom
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-        <div className="section">
           <div>
             <div className="row">
               <div className="col-sm-6">
@@ -311,8 +193,7 @@ nueva normalidad.
                       <div className="textBlock">
                         Nuestros colaboradores cuentan con suministros
                         sanitizantes disponibles 7x24 a nivel regional y están
-                        soportados por un Protocolo de Manejo de Riesgos de
-                        COVID-19.
+                        soportados por un Protocolo de Manejo de Riesgos de <span style={{ cursor: 'pointer', color:'#007bff' }} onClick={handleClick}> COVID-19. </span>
                       </div>
                     </div>
                   </div>
@@ -328,6 +209,7 @@ nueva normalidad.
           </div>
         </div>
       </div>
+      </Router>
     </>
   );
 };

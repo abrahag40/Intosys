@@ -43,9 +43,6 @@ export const RouterPage = () => {
             <Link className="nav-item nav-link" to="/NuestrosClientes">
               Nuestros Clientes
             </Link>
-            <Link className="nav-item nav-link" to="/Contacto">
-              Contacto
-            </Link>
             <Link className="nav-item nav-link" to="/Noticias">
               Noticias
             </Link>
@@ -54,7 +51,10 @@ export const RouterPage = () => {
             </Link>
           </div>
         </div>
-      <div className="d-flex">
+      <div className="d-flex" style={{ alignItems: 'center' }}>
+          <Link className="nav-item nav-link" style={{ fontSize: 20 }} to="/Contacto">
+            Contacto
+          </Link>
           <div className="divBandera"><img className="bandera" src="img/banderas/bandera_br.jpg" alt=""/></div>
           <div className="divBandera"><img className="bandera" src="img/banderas/bandera_eu.jpg" alt=""/></div>
           <div className="divBandera"><img className="bandera" src="img/banderas/bandera_mx.jpg" alt=""/></div>
@@ -71,6 +71,7 @@ export const RouterPage = () => {
         <Route path="/Comentarios"></Route>
         <Route path="/Noticias" component={Noticias}></Route>
         <Route path="/Bolsa" component={bolsaTrabajo}></Route>
+        <Redirect to="/Inicio" />
       </Switch>
     </Router>
   );

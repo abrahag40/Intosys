@@ -1,7 +1,17 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import {
+  BrowserRouter as Router,
+  useHistory 
+} from "react-router-dom";
 
 export const NuestraEmpresa = () => {
+  let history = useHistory();
+
+  const handleClick = () => {
+    window.open('https://worldvisionmexico.org.mx/', '_blank');
+  }
+
   return (
     <>
       <img
@@ -231,7 +241,7 @@ export const NuestraEmpresa = () => {
                   </div>
                   <div className="content-row-text" style={{ fontSize: 20, textAlign: 'justify' }}>
                   En Intosys, comulgamos con la idea de devolver, a nuestra comunidad, algo de lo mucho que no
-                  da. Es por eso que, a través de la ONG World Vision hacemos el apoyo a niños en situación
+                  da. Es por eso que, a través de la ONG <span style={{ cursor: 'pointer', color:'#007bff' }} onClick={handleClick}> World Vision </span> hacemos el apoyo a niños en situación
                   económica precaria para recibir servicios de salud, vestido y educación. Intosys forma parte del
                   programa “Patrocina una Historia”.
                   </div>

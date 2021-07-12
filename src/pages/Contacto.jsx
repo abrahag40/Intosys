@@ -16,49 +16,88 @@ export const Contacto = () => {
         >
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-md-10 col-lg-6">
+              <div className="col-lg-8">
                 <h1 style={{ color: "#19679e" }} >En breve nos pondremos en contacto con usted</h1>
                 <br />
                 <br />
                 <Form.Group>
-                  <div className="position-relative">
-                    <input
-                      className="form-control"
-                      id="input-styles2"
-                      type="text"
-                      placeholder="Nombre"
-                    />
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="Nombre"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="Pais de residencia"
+                      />
+                    </div>
                   </div>
-                  <br />
-                  <div className="position-relative formInput">
-                    <input
-                      className="form-control"
-                      id="input-styles2"
-                      type="number"
-                      placeholder="Teléfono"
-                    />
+                  <br/>
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="email"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="Teléfono"
+                      />
+                    </div>
                   </div>
-                  <br />
-                  <div className="position-relative formInput">
-                    <input
-                      className="form-control"
-                      id="input-styles2"
-                      type="email"
-                      placeholder="Email"
-                    />
+                  <br/>
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="Tipo de servicio"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="País"
+                      />
+                    </div>
                   </div>
-                  <br />
-                  <div className="position-relative formInput">
-                    <textarea
-                      id="w3review"
-                      className="form-control"
-                      name="w3review"
-                      rows="4"
-                      cols="50"
-                    ></textarea>
+                  <br/>
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="Localidad"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="Descripción de servicio"
+                      />
+                    </div>
                   </div>
-                  <br />
-                  <div className="position-relative text-center formInput">
+                  <br/>
+                  <div className="position-relative text-center formInput" style={{ marginTop: 22 }}>
                     <button className="btn btn-primary">Enviar</button>
                   </div>
                 </Form.Group>

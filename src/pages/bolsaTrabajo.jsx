@@ -1,4 +1,5 @@
 import React from "react";
+import { Form } from "react-bootstrap";
 
 export const bolsaTrabajo = () => {
   return (
@@ -9,10 +10,6 @@ export const bolsaTrabajo = () => {
         alt=""
       />
       <div className="container">
-        <div className="d-flex justify-content-center" style={{ fontSize: 20, paddingTop: 50 }}>
-          Manda tu C.V. al correo <a href="mailto:elcorreoquequieres@correo.com" style={{ padding: "0 5px" }}> recursos.humanos@intosys.com.mx </a> o anexa tus
-          datos en la pestaña “Contacto”
-        </div>
         <div className="row section" style={{ paddingBottom: 80 }}>
           <div className="col-6">
             <div className="d-flex bloquePadre">
@@ -31,7 +28,7 @@ export const bolsaTrabajo = () => {
                   objetivos y metas determinadas.
                   <br />
                   <br />
-                  CDMX Lun - Vie | 9:00 - 19:00 hrs
+                  
                 </div>
               </div>
             </div>
@@ -64,7 +61,7 @@ export const bolsaTrabajo = () => {
                   un alto nivel de servicio.
                   <br />
                   <br />
-                  CDMX Lun - Vie | 9:00 - 19:00 hrs
+                  
                 </div>
               </div>
             </div>
@@ -80,7 +77,6 @@ export const bolsaTrabajo = () => {
             />
           </div>
         </div>
-
         <div className="row" style={{ paddingBottom: 80 }}>
           <div
             className="col-sm-12 col-lg-6 imgServicios"
@@ -109,13 +105,13 @@ export const bolsaTrabajo = () => {
                   avances
                   <br />
                   <br />
-                  CDMX Lun - Vie | 9:00 - 19:00 hrs
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="row" style={{ paddingBottom: 80 }}>
+        <div className="row">
           <div
             className="col-sm-12 col-lg-6 imgServicios"
             style={{ paddingTop: 0 }}
@@ -142,12 +138,83 @@ export const bolsaTrabajo = () => {
                   escalaciones previstas para el Service Desk.
                   <br />
                   <br />
-                  CDMX Lun - Vie | 9:00 - 19:00 hrs
+                  
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <section
+          className="section section-lg bg-transparent text-center novi-background"
+          style={{ paddingTop: "0px !important", paddingBottom: 80 }}
+        >
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-md-10 col-lg-6">
+                <h1 style={{ color: "#19679e" }} >Califica para una posición</h1>
+                <br />
+                <br />
+                <Form.Group>
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="text"
+                        placeholder="Nombre"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="email"
+                        placeholder="Correo electronico"
+                      />
+                    </div>
+                  </div>
+                  <br />
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="pais"
+                        placeholder="Pais de residencia"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="localidad"
+                        placeholder="Localidad de residencia"
+                      />
+                    </div>
+                  </div>
+                  <br />
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <input
+                        className="form-control"
+                        id="input-styles2"
+                        type="localidad"
+                        placeholder="Puesto que desea desempeñar"
+                      />
+                    </div>
+                    <div className="col-lg-6">
+                      <button className="btn btn-secondary">Cargar CV</button>
+                    </div>
+                  </div>
+                  <br />
+                  <div className="position-relative text-center formInput" style={{ marginTop: 22 }}>
+                    <button className="btn btn-primary">Enviar</button>
+                  </div>
+                </Form.Group>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );
