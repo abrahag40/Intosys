@@ -4,10 +4,12 @@ import {
   BrowserRouter as Router,
   useHistory 
 } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 
 export const NuestraEmpresa = () => {
   let history = useHistory();
-
+  const { t, i18n } = useTranslation();
   const handleClick = () => {
     window.open('https://worldvisionmexico.org.mx/', '_blank');
   }
@@ -27,7 +29,7 @@ export const NuestraEmpresa = () => {
                 className="text-center text-md-left animated fadeInUp covid"
                 style={{ borderBottom: "solid 5px #19679e" }}
               >
-                Nosotros
+                {t('OurCompany_Us')}
               </h2>
               <div
                 className="content-row content-row-max-width animated fadeInUp"
@@ -42,13 +44,7 @@ export const NuestraEmpresa = () => {
                     className="content-row-text textBlock"
                     style={{ fontSize: 20, textAlign: 'justify' }}
                   >
-                    En Intosys conformamos una empresa totalmente orientada a
-                    proveer servicios de Tecnologías de la Información a
-                    Fabricantes de Tecnologías de Información, Globalizadores y
-                    Grandes Distribuidores. Iniciamos en el año 2000 y contamos
-                    con personal con más de 25 años de experiencia en Servicios
-                    Técnicos y Logísticos, cubriendo la totalidad del continente
-                    americano.
+                    {t('OurCompany_UsText')}
                   </div>
                 </div>
               </div>
@@ -78,16 +74,14 @@ export const NuestraEmpresa = () => {
                       className="text-center text-md-left covid"
                       style={{ fontSize: 30 }}
                     >
-                      Misión
+                      {t('OurCompany_Mission')}
                     </h2>
                   </div>
                   <div
                     className="content-row-text textBlock"
                     style={{ fontSize: 17, textAlign: 'justify' }}
                   >
-                    Cumplir y exceder los requisitos y expectativas de nuestros
-                    clientes, proporcionando asistencia técnica confiable a
-                    Tecnologías de Información.
+                    {t('OurCompany_MissionText')}
                   </div>
                 </div>
               </div>
@@ -137,16 +131,13 @@ export const NuestraEmpresa = () => {
                   style={{ flexFlow: "column" }}
                 >
                   <div className="bloqueIndex">
-                    <h2 className="text-center text-md-left covid">Visión</h2>
+                    <h2 className="text-center text-md-left covid">{t('OurCompany_Vision')}</h2>
                   </div>
                   <div
                     className="content-row-text textBlock"
                     style={{ fontSize: 17, textAlign: 'justify' }}
                   >
-                    Ser reconocida como una empresa que ofrece soluciones
-                    sólidas, ágiles y de alta calidad en Productos y Servicios
-                    de Tecnologías de Información, logrando la lealtad de sus
-                    clientes internos y externos.
+                    {t('OurCompany_VisionText')}
                   </div>
                 </div>
               </div>
@@ -173,7 +164,7 @@ export const NuestraEmpresa = () => {
                 className="text-center text-md-left animated fadeInUp covid"
                 style={{ borderBottom: "solid 5px #19679e" }}
               >
-                Calidad ISO 20000
+                {t('OurCompany_ISO')}
               </h2>
               <div
                 className="content-row content-row-max-width animated fadeInUp"
@@ -185,8 +176,7 @@ export const NuestraEmpresa = () => {
                     className="content-row-text textBlock"
                     style={{ fontSize: 20 }}
                   >
-                    En Intosys operamos bajo la norma internacional de Calidad ISO 20000 en todos nuestros
-                    procesos, buscando mantenerlos ágiles y funcionales en base al método de mejora continua.
+                    {t('OurCompany_ISOText')}
                   </div>
                 </div>
               </div>
@@ -225,7 +215,7 @@ export const NuestraEmpresa = () => {
                 className="text-center text-md-left animated fadeInUp covid"
                 style={{ borderBottom: "solid 5px #19679e" }}
               >
-                Comunidad
+                {t('OurCompany_Community')}
               </h2>
               <div
                 className="content-row content-row-max-width animated fadeInUp"
@@ -240,10 +230,7 @@ export const NuestraEmpresa = () => {
                     </p>
                   </div>
                   <div className="content-row-text" style={{ fontSize: 20, textAlign: 'justify' }}>
-                  En Intosys, comulgamos con la idea de devolver, a nuestra comunidad, algo de lo mucho que no
-                  da. Es por eso que, a través de la ONG <span style={{ cursor: 'pointer', color:'#007bff' }} onClick={handleClick}> World Vision </span> hacemos el apoyo a niños en situación
-                  económica precaria para recibir servicios de salud, vestido y educación. Intosys forma parte del
-                  programa “Patrocina una Historia”.
+                    {t('OurCompany_CommunityText')}
                   </div>
                   <img src="img/nosotros/world_vision.png" alt="" />
                 </div>

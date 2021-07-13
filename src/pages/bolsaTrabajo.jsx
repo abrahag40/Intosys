@@ -1,7 +1,11 @@
 import React from "react";
 import { Form } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 export const bolsaTrabajo = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <img
@@ -21,11 +25,7 @@ export const bolsaTrabajo = () => {
                   className="textBlock"
                   style={{ fontSize: "inherit", fontSize: 20 }}
                 >
-                  Lograr el manejo eficiente de todos los recursos humanos,
-                  materiales y de infraestructura a fin de mantener la mejora
-                  continua en los procesos, planear, organizar, dirigir y
-                  controlar los procesos de operación de acuerdo con los
-                  objetivos y metas determinadas.
+                  {t('Job_ProjectManagerTxt')}
                   <br />
                   <br />
                   
@@ -55,13 +55,9 @@ export const bolsaTrabajo = () => {
                   className="textBlock"
                   style={{ fontSize: "inherit", fontSize: 20 }}
                 >
-                  Coordinar de manera oportuna a los ingenieros de campo/sitio
-                  así como a los CAS para que la atención sea llevada a cabo de
-                  acuerdo a los requerimientos del cliente y se pueda mantener
-                  un alto nivel de servicio.
+                  {t('Job_DispatcherTxt')}
                   <br />
                   <br />
-                  
                 </div>
               </div>
             </div>
@@ -98,11 +94,7 @@ export const bolsaTrabajo = () => {
                   className="textBlock"
                   style={{ fontSize: "inherit", fontSize: 20 }}
                 >
-                  Proporcionar la atención de servicios hacia los clientes
-                  internos y externos de manera oportuna y expedita para poder
-                  mantener un alto nivel de servicio así como mantenerse
-                  actualizado realizando sus certificaciones de acuerdo a los
-                  avances
+                  {t('Job_FieldTxt')}
                   <br />
                   <br />
                   
@@ -126,16 +118,13 @@ export const bolsaTrabajo = () => {
             <div className="d-flex bloquePadre">
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Agente de Service Desk Bilingüe IT </h4>
+                  <h4> {t('Job_BilingualIT')} </h4>
                 </div>
                 <div
                   className="textBlock"
                   style={{ fontSize: "inherit", fontSize: 20 }}
                 >
-                  Levantar tickets de los usuarios que se atiendan dentro del
-                  SLA de respuesta que se tiene con el cliente así como dar
-                  seguimiento, soluciones y respuestas correctas a las
-                  escalaciones previstas para el Service Desk.
+                  {t('Job_BilingualITTxt')}
                   <br />
                   <br />
                   

@@ -1,6 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const Noticias = () => {
+
+  const { t, i18n } = useTranslation();
+
+
   return (
     <>
       <img
@@ -35,28 +40,16 @@ export const Noticias = () => {
                     A nuestros clientes, proveedores y comunidad en general:
                   </h3>
                   <div className="post-text">
-                    En los últimos meses derivado de la pandemia de COVID-19,
-                    México y el resto del mundo han enfrentado una de las crisis
-                    más grandes del mundo, tanto económica como socialmente y en
-                    INTOSYS somos conscientes de ello.
+                    {t('News_NoveltiesTxt1')}
                   </div>
                   <div className="post-text">
-                    Esta pandemia ha planteado nuevos esquemas de trabajo en las
-                    empresas, ha hecho que nos adaptemos a una Nueva Normalidad
-                    donde la vida a dado un giro que nos permitió aprender y dar
-                    un paso más allá de donde nos encontrábamos hace 9 meses.
+                    {t('News_NoveltiesTxt2')}
                   </div>
                   <div className="post-text">
-                    Actualmente nuestras operaciones a nivel LATAM han tomado
-                    una evolución con directrices de acuerdo con las medidas de
-                    prevención de cada país, las exigencias y necesidades de
-                    cada uno de nuestros clientes.
+                    {t('News_NoveltiesTxt3')}
                   </div>
                   <div className="post-text">
-                    En Intosys queremos asegurarnos de la salud de nuestro
-                    equipo de trabajo, por lo tanto, les damos acceso a kits de
-                    prevención y cuidado contra el COVID-19, los cuales
-                    contienen:
+                    {t('News_NoveltiesTxt4')}
                   </div>
                   <div style={{ padding: "20px 0px 5px 30px" }}>
                     <ul>
@@ -74,18 +67,14 @@ export const Noticias = () => {
                     </ul>
                   </div>
                   <div className="post-text">
-                    Sabemos que no es fácil operar en esta situación, pero
-                    también sabemos que juntos podremos lograr salir adelante y
-                    retomar la economía, gracias al esfuerzo que realizan cada
-                    día, seguimos comprometidos con cumplir y superar sus
-                    expectativas de Intosys.
+                    {t('News_NoveltiesTxt5')}
                   </div>
                   <div className="post-text">
-                    Gracias por confiar en nosotros.
+                    {t('News_NoveltiesTxt6')}
                   </div>
                   <br />
                   <div>Noel Santiago Sosa.</div>
-                  <div>Director de Logística y Servicio.</div>
+                  <div>{t('News_NoveltiesTxt7')}</div>
                   <div className="post-meta post-meta-between post-meta-lg">
                     <div className="post-meta-item">
                       <span className="post-meta-icon int-tag novi-icon"></span>

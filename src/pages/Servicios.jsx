@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export const Servicios = () => {
+
+  const { t, i18n } = useTranslation();
 
   const BlockText = ({title}) => {
     return (
@@ -27,17 +30,16 @@ export const Servicios = () => {
             <div className="d-flex bloquePadre">
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Servicios de Logística </h4>
+                  <h4> {t('ServicesGeo_Logistics')} </h4>
                 </div>
                 <div className="blurb-text">
-                  <BlockText title={'Amplia red de Almacenes para refacciones, suministros y equipos completos.'}/>
-
-                  <BlockText title={'Cobertura Geográfica en las ciudades más importantes de América Latina. '}/>
-                  <BlockText title={'Sistema de Control de Inventarios vía web. '}/>
-                  <BlockText title={'Consultoría en Generación de Imágenes de Software. '}/>
-                  <BlockText title={'Carga masiva de imágenes de Software. '}/>
-                  <BlockText title={'Servicios de Etiquetado de Cajas y Equipos de Cómputo. '}/>
-                  <BlockText title={'Servicios de Disposición Final de Hardware. '}/>
+                  <BlockText title={t('ServicesGeo_LogisticsTxt1')}/>
+                  <BlockText title={t('ServicesGeo_LogisticsTxt2')}/>
+                  <BlockText title={t('ServicesGeo_LogisticsTxt3')}/>
+                  <BlockText title={t('ServicesGeo_LogisticsTxt4')}/>
+                  <BlockText title={t('ServicesGeo_LogisticsTxt5')}/>
+                  <BlockText title={t('ServicesGeo_LogisticsTxt6')}/>
+                  <BlockText title={t('ServicesGeo_LogisticsTxt7')}/>
                 </div>
               </div>
             </div>
@@ -72,14 +74,14 @@ export const Servicios = () => {
             <div className="d-flex bloquePadre">
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Servicios Técnicos a Cómputo de Usuario Final.</h4>
+                  <h4> {t('ServicesGeo_EndUser')} </h4>
                 </div>
                 <div className="blurb-text">
-                  <BlockText title={'Service Desk bilingüe operando en 7x24.'}/>
-                  <BlockText title={'Ingeniería de Campo con más de 5 años de experiencia en atención a Cómputo de usuario final.'}/>
-                  <BlockText title={'Contratos de Mantenimiento Correctivo.'}/>
-                  <BlockText title={'Niveles de Servicio de 4 horas, mismo día y siguiente día hábil.'}/>
-                  <BlockText title={'Atención de Incidentes de Hardware por Evento.'}/>
+                  <BlockText title={t('ServicesGeo_EndUserTxt1')}/>
+                  <BlockText title={t('ServicesGeo_EndUserTxt2')}/>
+                  <BlockText title={t('ServicesGeo_EndUserTxt3')}/>
+                  <BlockText title={t('ServicesGeo_EndUserTxt4')}/>
+                  <BlockText title={t('ServicesGeo_EndUserTxt5')}/>
                 </div>
               </div>
             </div>
@@ -94,20 +96,20 @@ export const Servicios = () => {
             <div className="d-flex bloquePadre">
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Servicios de consultoría del centro de datos. </h4>
+                  <h4> {t('ServicesGeo_DataCenter')} </h4>
                 </div>
                 <div className="blurb-text">
-                  <p> • Virtualización (Servidores y VDI).</p>
-                  <p> • Consolidación del servidor.</p>
-                  <p> • Soluciones de alta disponibilidad.</p>
-                  <p> • Reubicación de Data Center.</p>
-                  <p> • Copia de seguridad / restauración.</p>
-                  <p> • Migración (SO, servicios, aplicaciones de bajo nivel). </p>
-                  <p> • Proyectos especiales para Data Center.</p>
-                  <p> • Migración a la nube pública o privada.</p>
-                  <p> • Implementación de ambientes virtuales híbridos.</p>
-                  <p> • Consultores Certificados para atención de Data Center.</p>
-                  <p> • Administración de Proyectos bajo SCRUM y PMI.</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt1')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt2')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt3')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt4')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt5')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt6')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt7')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt8')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt9')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt10')}</p>
+                  <p> • {t('ServicesGeo_DataCenterTxt11')}</p>
                 </div>
               </div>
             </div>
@@ -142,13 +144,13 @@ export const Servicios = () => {
             <div className="d-flex bloquePadre">
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Servicio de Ingeniería Dedicada </h4>
+                  <h4> {t('ServicesGeo_DedicatedEng')} </h4>
                 </div>
                 <div className="blurb-text">
-                  <p>• Proyectos de Asignación de Ingeniería dedicada.</p>
-                  <p>• Personal Experto en Tecnologías de Información.</p>
-                  <p>• Con Backfill. </p>
-                  <p>• Servicios por hora, día, semana, mes o año.</p>
+                  <p>• {t('ServicesGeo_DedicatedEngTxt1')} </p>
+                  <p>• {t('ServicesGeo_DedicatedEngTxt2')} </p>
+                  <p>• {t('ServicesGeo_DedicatedEngTxt3')} </p>
+                  <p>• {t('ServicesGeo_DedicatedEngTxt4')} </p>
                 </div>
               </div>
             </div>
@@ -163,15 +165,15 @@ export const Servicios = () => {
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
                   
-                  <h4> Cobertura geográfica </h4>
+                  <h4> {t('ServicesGeo_GeographicCov')} </h4>
                 </div>
                 <div className="blurb-text">
-                  <p>• Servicios de campo bajo demanda.</p>
-                  <p>• Rack and stack bilingüe y configuración básica.</p>
-                  <p>• Almacenamiento de partes y unidades completas.</p>
-                  <p>• Disposición final certificada.</p>
-                  <p>• Tendido de cableado estructurado para redes locales.</p>
-                  <p>• WIFI survey (activa y pasiva).</p>
+                  <p>• {t('ServicesGeo_GeographicCov1')} </p>
+                  <p>• {t('ServicesGeo_GeographicCov2')} </p>
+                  <p>• {t('ServicesGeo_GeographicCov3')} </p>
+                  <p>• {t('ServicesGeo_GeographicCov4')} </p>
+                  <p>• {t('ServicesGeo_GeographicCov5')} </p>
+                  <p>• {t('ServicesGeo_GeographicCov6')} </p>
                 </div>
               </div>
             </div>
