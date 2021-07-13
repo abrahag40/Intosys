@@ -1,7 +1,10 @@
 import React from "react";
 import { Form } from "react-bootstrap";
+import { useTranslation } from 'react-i18next';
 
 export const Contacto = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <img

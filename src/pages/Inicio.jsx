@@ -5,9 +5,11 @@ import {
   useHistory 
 } from "react-router-dom";
 import { Noticias } from "./Noticias";
+import { useTranslation } from "react-i18next";
 
 export const Inicio = () => {
   let history = useHistory();
+  const { t, i18n } = useTranslation();
 
   const handleClick = () => {
     history.push("/Noticias");
@@ -37,13 +39,11 @@ export const Inicio = () => {
                 />
               </div>
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
-                <div className="bloqueIndex">
-                  {" "}
-                  <h4> Porque Elegir a Intosys </h4>{" "}
+                <div className="bloqueIndex">                
+                  <h4>{t('Home_porqueElegirnos')}</h4>
                 </div>
                 <div className="textBlock" style={{ fontSize: "inherit" }}>
-                En Intosys entregamos servicios bajo la norma de calidad ISO 20000, nuestros proyectos se
-administran bajo las mejores prácticas de ITIL.
+                  {t('Home_porqueElegirnosText')}
                 </div>
               </div>
             </div>
@@ -58,11 +58,10 @@ administran bajo las mejores prácticas de ITIL.
               </div>
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4>Servicio, Calidad y Cobertura </h4>
+                  <h4>{t('Home_serviceQE')}</h4>
                 </div>
                 <div className="textBlock" style={{ fontSize: "inherit" }}>
-                En Intosys somos un solo punto de contacto para Servicios de Tecnologías de la Información en
-todo el territorio de América Latina, la Zona del Caribe; EEUU y Canadá.
+                {t('Home_serviceQEText')}
                 </div>
               </div>
             </div>
@@ -77,11 +76,10 @@ todo el territorio de América Latina, la Zona del Caribe; EEUU y Canadá.
               </div>
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Amplio Portafolio de Servicios de TI </h4>
+                  <h4>{t('Home_ITServices')}</h4>
                 </div>
                 <div className="textBlock" style={{ fontSize: "inherit" }}>
-                En Intosys contamos con un amplio portafolio de servicio de Tecnologías de la Información para
-Data Center, Cómputo de Usuario Final y Outsourcing de Personal.
+                {t('Home_ITServicesText')}
                 </div>
               </div>
             </div>
@@ -112,12 +110,10 @@ Data Center, Cómputo de Usuario Final y Outsourcing de Personal.
               </div>
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Flexible Modelo de Servicios Integrales. </h4>
+                  <h4>{t('Home_ServicesModel')}</h4>
                 </div>
                 <div className="textBlock" style={{ fontSize: "inherit" }}>
-                En Intosys proveemos soluciones completas de Servicios de Tecnologías de la Información,
-totalmente flexibles, contemplando personal técnico dedicado o por evento y logística de partes
-nacional e internacional.
+                  {t('Home_ServicesModelText')}
                 </div>
               </div>
             </div>
@@ -132,13 +128,10 @@ nacional e internacional.
               </div>
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  {" "}
-                  <h4> Nuestros Clientes. </h4>
+                  <h4>{t('Home_OurCustomers')}</h4>
                 </div>
                 <div className="textBlock" style={{ fontSize: "inherit" }}>
-                En Intosys proveemos servicios de Tecnologías de la Información exclusivamente para Fabricantes
-de Tecnología, Globalizadores Mundiales de Servicio y Grandes Distribuidores de Productos de
-Tecnologías de la Información.
+                  {t('Home_OurCustomersText')}
                 </div>
               </div>
             </div>
@@ -153,11 +146,10 @@ Tecnologías de la Información.
               </div>
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Mejora Continua y Nueva Normalidad. </h4>
+                  <h4>{t('Home_VerticalMarkets')}</h4>
                 </div>
                 <div className="textBlock" style={{ fontSize: "inherit" }}>
-                En Intosys, escuchando a nuestros clientes, mejoramos cada día y estamos preparados para la
-nueva normalidad.
+                {t('Home_VerticalMarketsText')}
                 </div>
               </div>
             </div>
@@ -172,7 +164,7 @@ nueva normalidad.
                     className="text-center text-md-left animated fadeInUp covid"
                     style={{ borderBottom: "solid 5px #19679e" }}
                   >
-                    COVID-19 una nueva normalidad
+                    {t('Home_COVID-19')}
                   </h1>
                   <div
                     className="content-row content-row-max-width animated fadeInUp"
@@ -181,19 +173,13 @@ nueva normalidad.
                   >
                     <div className="content-row-item content-row-body">
                       <div className="textBlock">
-                        Conoce las medidas de Sanidad que fomentamos en nuestros
-                        empleados.
+                        {t('Home_COVID-19Text')}
                       </div>
                       <div className="textBlock">
-                        Estamos operando bajo la nueva normalidad, respetamos
-                        las leyes, todos nuestros procesos de servicio cuentan
-                        con medidas preventivas que minimizan los riesgos de
-                        contagio.
+                        {t('Home_COVID-19Text2')}
                       </div>
                       <div className="textBlock">
-                        Nuestros colaboradores cuentan con suministros
-                        sanitizantes disponibles 7x24 a nivel regional y están
-                        soportados por un Protocolo de Manejo de Riesgos de <span style={{ cursor: 'pointer', color:'#007bff' }} onClick={handleClick}> COVID-19. </span>
+                        {t('Home_COVID-19Text3')}
                       </div>
                     </div>
                   </div>

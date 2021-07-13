@@ -13,8 +13,29 @@ import { Comunidad } from "./Comunidad";
 import { Contacto } from "./Contacto";
 import { bolsaTrabajo } from "./bolsaTrabajo";
 import { Noticias } from "./Noticias";
+import { useTranslation } from 'react-i18next';
 
 export const RouterPage = () => {
+
+  const { t, i18n } = useTranslation();
+    
+  const lngs = {
+    por: { nativeName: 'Portuguese' },
+    es: { nativeName: 'Spanish' },
+    en: { nativeName: 'English' },
+  };
+
+  const changeLocalLanguage = (lan) => {
+
+    i18n.changeLanguage('fr');
+    if (lan === '') {
+    } else if (lan === '') {
+      i18n.changeLanguage('en-US');
+    } else {
+      i18n.changeLanguage('en-US');
+    }
+  }
+
   return (
     <Router>
         <div>
@@ -55,9 +76,15 @@ export const RouterPage = () => {
           <Link className="nav-item nav-link" style={{ fontSize: 20 }} to="/Contacto">
             Contacto
           </Link>
-          <div className="divBandera"><img className="bandera" src="img/banderas/bandera_br.jpg" alt=""/></div>
-          <div className="divBandera"><img className="bandera" src="img/banderas/bandera_eu.jpg" alt=""/></div>
-          <div className="divBandera"><img className="bandera" src="img/banderas/bandera_mx.jpg" alt=""/></div>
+          {Object.keys(lngs).map((lng) => {
+            if (lng ==="en") {
+              return <div className="divBandera" onClick={() => i18n.changeLanguage(lng)} ><img className="bandera" src="img/banderas/bandera_eu.jpg" alt=""/></div>
+            } else if (lng ==="es"){
+              return <div className="divBandera" onClick={() => i18n.changeLanguage(lng)} ><img className="bandera" src="img/banderas/bandera_mx.jpg" alt=""/></div>
+            } else {
+              return <div className="divBandera" onClick={() => i18n.changeLanguage(lng)} ><img className="bandera" src="img/banderas/bandera_br.jpg" alt=""/></div>
+            }
+          })}
       </div>
       </nav>
       </div>
