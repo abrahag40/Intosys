@@ -201,7 +201,7 @@ export const Servicios = () => {
                 style={{ borderBottom: "solid 5px #19679e" }}
                 data-animate='{"class":"fadeInUp"}'
               >
-                Nuestros Servicios y Presencia
+                {t('ServicesGeo_OurServices')}
               </h1>
               <div
                 className="content-row content-row-max-width animated fadeInUp"
@@ -233,7 +233,7 @@ export const Servicios = () => {
               <p> • Honduras </p>
           </div>
           <div className="col-sm-4">
-            <h6> Presencia de Servicio:</h6>
+            <h6> {t('ServicesGeo_Presence')}</h6>
             <p>• Jamaica.</p>
             <p>• Haití.</p>
             <p>• República Dominicana.</p>

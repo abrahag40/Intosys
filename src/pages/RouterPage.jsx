@@ -11,7 +11,7 @@ import {
 import { Servicios } from "./Servicios";
 import { Comunidad } from "./Comunidad";
 import { Contacto } from "./Contacto";
-import { bolsaTrabajo } from "./bolsaTrabajo";
+import { BolsaTrabajo } from "./bolsaTrabajo";
 import { Noticias } from "./Noticias";
 import { useTranslation } from 'react-i18next';
 
@@ -97,7 +97,7 @@ export const RouterPage = () => {
         <Route path="/Contacto" component={Contacto}></Route>
         <Route path="/Comentarios"></Route>
         <Route path="/Noticias" component={Noticias}></Route>
-        <Route path="/Bolsa" component={bolsaTrabajo}></Route>
+        <Route path="/Bolsa" component={BolsaTrabajo}></Route>
         <Redirect to="/Inicio" />
       </Switch>
     </Router>

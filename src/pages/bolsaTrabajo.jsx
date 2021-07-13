@@ -2,7 +2,7 @@ import React from "react";
 import { Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
-export const bolsaTrabajo = () => {
+export const BolsaTrabajo = () => {
 
   const { t, i18n } = useTranslation();
 

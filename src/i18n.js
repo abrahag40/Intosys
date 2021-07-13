@@ -79,6 +79,8 @@ const resources = {
         "ServicesGeo_GeographicCov4": "Certified final disposition.",
         "ServicesGeo_GeographicCov5": "Laying of structured cabling for local networks.",
         "ServicesGeo_GeographicCov6": "WIFI survey (active and passive).",
+        "ServicesGeo_OurServices": "Our Services and Presence",
+        "ServicesGeo_Presence": "Presence of Service:",
 
         "News_Novelties": "Novelties",
         "News_NoveltiesTxt1": "In recent months stemming from the COVID-19 pandemic, Mexico and the rest of the world have faced one of the world's biggest crises, both economically and socially, and at INTOSYS we are aware of this",
@@ -174,6 +176,8 @@ const resources = {
         "ServicesGeo_GeographicCov4": "Disposición final certificada.",
         "ServicesGeo_GeographicCov5": "Tendido de cableado estructurado para redes locales.",
         "ServicesGeo_GeographicCov6": "WIFI survey (activa y pasiva).",
+        "ServicesGeo_OurServices": "Nuestros Servicios y Presencia",
+        "ServicesGeo_Presence": "Presencia de Servicio:",
 
         "News_Novelties": "Noticias",
         "News_NoveltiesTxt1": "En los últimos meses derivado de la pandemia de COVID-19, México y el resto del mundo han enfrentado una de las crisis más grandes del mundo, tanto económica como socialmente y en INTOSYS somos conscientes de ello.",
@@ -268,6 +272,8 @@ const resources = {
       "ServicesGeo_GeographicCov4": "Disposição final certificada.",
       "ServicesGeo_GeographicCov5": "Colocação de cabeamento estruturado para redes locais.",
       "ServicesGeo_GeographicCov6": "Pesquisa WIFI (ativa e passiva).",
+      "ServicesGeo_OurServices": "Nossos Serviços e Presença",
+      "ServicesGeo_Presence": "Presença de serviço:",
 
       "News_Novelties": "Notícias",
       "News_NoveltiesTxt1": "Nos últimos meses, decorrentes da pandemia COVID-19, o México e o resto do mundo enfrentaram uma das maiores crises do mundo, tanto econômica quanto socialmente, e na INTOSYS estamos cientes disso.",
