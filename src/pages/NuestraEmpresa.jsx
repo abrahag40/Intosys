@@ -223,12 +223,6 @@ export const NuestraEmpresa = () => {
                 style={{ marginTop: 45 }}
               >
                 <div className="content-row-item content-row-body">
-                  <div className="content-row-text" style={{ fontSize: 20 }}>
-                    Regresando a la comunidad:
-                    <p>
-                      En Intosys nos preocupamos por ayudar ¿Cómo lo hacemos?
-                    </p>
-                  </div>
                   <div className="content-row-text" style={{ fontSize: 20, textAlign: 'justify' }}>
                     {t('OurCompany_CommunityText')}
                   </div>

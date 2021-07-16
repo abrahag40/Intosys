@@ -19,7 +19,7 @@ export const BolsaTrabajo = () => {
             <div className="d-flex bloquePadre">
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Project Manajer </h4>
+                  <h4> {t('Job_ProjectManager')} </h4>
                 </div>
                 <div
                   className="textBlock"
@@ -88,7 +88,7 @@ export const BolsaTrabajo = () => {
             <div className="d-flex bloquePadre">
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4> Ingeniero de Campo/Sitio </h4>
+                  <h4> {t('Job_Field')} </h4>
                 </div>
                 <div
                   className="textBlock"
@@ -140,7 +140,7 @@ export const BolsaTrabajo = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-10 col-lg-6">
-                <h1 style={{ color: "#19679e" }} >Califica para una posición</h1>
+                <h1 style={{ color: "#19679e" }} >{t('Contact_Qualify')}</h1>
                 <br />
                 <br />
                 <Form.Group>
@@ -150,7 +150,7 @@ export const BolsaTrabajo = () => {
                         className="form-control"
                         id="input-styles2"
                         type="text"
-                        placeholder="Nombre"
+                        placeholder={t('Contact_Name')}
                       />
                     </div>
                     <div className="col-lg-6">
@@ -158,7 +158,7 @@ export const BolsaTrabajo = () => {
                         className="form-control"
                         id="input-styles2"
                         type="email"
-                        placeholder="Correo electronico"
+                        placeholder={t('Contact_email')}
                       />
                     </div>
                   </div>
@@ -177,7 +177,7 @@ export const BolsaTrabajo = () => {
                         className="form-control"
                         id="input-styles2"
                         type="localidad"
-                        placeholder="Localidad de residencia"
+                        placeholder={t('Contact_Town')}
                       />
                     </div>
                   </div>
@@ -188,16 +188,16 @@ export const BolsaTrabajo = () => {
                         className="form-control"
                         id="input-styles2"
                         type="localidad"
-                        placeholder="Puesto que desea desempeñar"
+                        placeholder={t('Contact_Position')}
                       />
                     </div>
                     <div className="col-lg-6">
-                      <button className="btn btn-secondary">Cargar CV</button>
+                      <button className="btn btn-secondary">{t('Contact_LoadCV')}</button>
                     </div>
                   </div>
                   <br />
                   <div className="position-relative text-center formInput" style={{ marginTop: 22 }}>
-                    <button className="btn btn-primary">Enviar</button>
+                    <button className="btn btn-primary">{t('Contact_Send')}</button>
                   </div>
                 </Form.Group>
               </div>

@@ -33,14 +33,6 @@ export const Contacto = () => {
                         placeholder="Nombre"
                       />
                     </div>
-                    <div className="col-lg-6">
-                      <input
-                        className="form-control"
-                        id="input-styles2"
-                        type="text"
-                        placeholder="Pais de residencia"
-                      />
-                    </div>
                   </div>
                   <br/>
                   <div className="row">

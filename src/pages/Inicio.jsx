@@ -146,10 +146,10 @@ export const Inicio = () => {
               </div>
               <div className="d-flex leftBlock" style={{ flexFlow: "column" }}>
                 <div className="bloqueIndex">
-                  <h4>{t('Home_VerticalMarkets')}</h4>
+                  <h4>{t('Home_Improvement')}</h4>
                 </div>
                 <div className="textBlock" style={{ fontSize: "inherit" }}>
-                {t('Home_VerticalMarketsText')}
+                {t('Home_ImprovementText')}
                 </div>
               </div>
             </div>

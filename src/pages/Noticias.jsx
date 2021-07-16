@@ -53,17 +53,15 @@ export const Noticias = () => {
                   </div>
                   <div style={{ padding: "20px 0px 5px 30px" }}>
                     <ul>
-                      <li> Gel antibacterial.</li>
-                      <li> Cubrebocas</li>
-                      <li>
-                         Careta (en caso del área de servicios de campo).
-                      </li>
-                      <li> Aerosol desinfectante</li>
-                      <li> Microfibra</li>
-                      <li> Toallitas desinfectantes.</li>
-                      <li> Pulsera con gel antibacterial.</li>
-                      <li> Jabón laminado</li>
-                      <li> Guantes desechables</li>
+                      <li> {t('lista_gelantibacterial')} Gel antibacterial.</li>
+                      <li> {t('lista_cubrebocas')} Cubrebocas</li>
+                      <li> {t('lista_careta')} Careta (en caso del área de servicios de campo). </li>
+                      <li> {t('lista_aerosoldesinfectante')} Aerosol desinfectante</li>
+                      <li> {t('lista_microfibra')} Microfibra</li>
+                      <li> {t('lista_toallitas')} Toallitas desinfectantes.</li>
+                      <li> {t('lista_pulsera')} Pulsera con gel antibacterial.</li>
+                      <li> {t('lista_jabon')} Jabón laminado</li>
+                      <li> {t('lista_guantes')} Guantes desechables</li>
                     </ul>
                   </div>
                   <div className="post-text">

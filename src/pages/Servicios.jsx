@@ -211,7 +211,7 @@ export const Servicios = () => {
             </div>
           </div>
           <div className="col-sm-4">
-            <h6> Presencia Directa:</h6>
+            <h6> {t('ServicesGeo_PrecenceDirect')} </h6>
             <img
               src="/img/servicios/mapa1.png"
               style={{ width: "100%" }}
@@ -220,35 +220,35 @@ export const Servicios = () => {
           </div>
           <div className="col-sm-4">
             <h6> Business Partners:</h6>
-              <p> • Ecuador </p>
-              <p> • Bolivia </p>
-              <p> • Venezuela </p>
-              <p> • Paraguay </p>
-              <p> • Panamá </p>
-              <p> • Uruguay </p>
-              <p> • Guatemala </p>
-              <p> • Nicaragua </p>
-              <p> • Salvador </p>
-              <p> • Belice </p>
-              <p> • Honduras </p>
+              <p> • {t('pais_ecuador')} </p>
+              <p> • {t('pais_bolivia')} </p>
+              <p> • {t('pais_venezuela')} </p>
+              <p> • {t('pais_paraguay')} </p>
+              <p> • {t('pais_panama')} </p>
+              <p> • {t('pais_uruguay')} </p>
+              <p> • {t('pais_guatemala')} </p>
+              <p> • {t('pais_nicaragua')} </p>
+              <p> • {t('pais_elsalvador')} </p>
+              <p> • {t('pais_belice')} </p>
+              <p> • {t('pais_honduras')} </p>
           </div>
           <div className="col-sm-4">
             <h6> {t('ServicesGeo_Presence')}</h6>
-            <p>• Jamaica.</p>
-            <p>• Haití.</p>
-            <p>• República Dominicana.</p>
-            <p>• Bahamas.</p>
-            <p>• Anguila.</p>
-            <p>• Antigua y Barbuda.</p>
-            <p>• Guadalupe.</p>
-            <p>• Dominica.</p>
-            <p>• Martinica.</p>
-            <p>• Barbados.</p>
-            <p>• Granada.</p>
-            <p>• Aruba.</p>
-            <p>• Curazao.</p>
-            <p>• Cuba.</p>
-            <p>• Islas Caimán.</p>
+            <p>• {t('pais_jamaica')} Jamaica.</p>
+            <p>• {t('pais_haiti')} Haití.</p>
+            <p>• {t('pais_republicadominicaca')} República Dominicana.</p>
+            <p>• {t('pais_bahamas')} Bahamas.</p>
+            <p>• {t('pais_anguila')} Anguila.</p>
+            <p>• {t('pais_antiguaybarbuda')} Antigua y Barbuda.</p>
+            <p>• {t('pais_guadalupe')} Guadalupe.</p>
+            <p>• {t('pais_dominica')} Dominica.</p>
+            <p>• {t('pais_martinica')} Martinica.</p>
+            <p>• {t('pais_barbados')} Barbados.</p>
+            <p>• {t('pais_granada')} Granada.</p>
+            <p>• {t('pais_aruba')} Aruba.</p>
+            <p>• {t('pais_curazao')} Curazao.</p>
+            <p>• {t('pais_cuba')} Cuba.</p>
+            <p>• {t('pais_islascaiman')} Islas Caimán.</p>
           </div>
         </div>
       </div>

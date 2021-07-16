@@ -1,7 +1,11 @@
 import React from "react";
 import "../offer-box.css";
+import { useTranslation } from "react-i18next";
 
 export const Comunidad = () => {
+
+  const { t, i18n } = useTranslation();
+
   return (
     <>
       <img
@@ -17,7 +21,7 @@ export const Comunidad = () => {
           <div className="container">
             <div className="group-20 d-flex flex-wrap align-items-end justify-content-between">
               <div className="bloqueIndex">
-                <h2> Clientes Directos </h2>
+                <h2> {t('OurClients_Direct')} </h2>
               </div>
             </div>
             <div className="row row-offset-lg row-30 row-lg-40">
@@ -252,7 +256,7 @@ export const Comunidad = () => {
           <div className="container">
             <div className="group-20 d-flex flex-wrap align-items-end justify-content-between">
               <div className="bloqueIndex">
-                <h2> Algunos de Nuestros Clientes Finales </h2>
+                <h2> {t('OurClients_FinalClients')} </h2>
               </div>
             </div>
             <div className="row row-offset-lg row-30 row-lg-40">
@@ -542,7 +546,7 @@ export const Comunidad = () => {
           <div className="container">
             <div className="group-20 d-flex flex-wrap align-items-end justify-content-between">
               <div className="bloqueIndex">
-                <h2> Socios Tecnológicos </h2>
+                <h2> {t('OurClients_Partners')} </h2>
               </div>
             </div>
             <div className="row row-offset-lg row-30 row-lg-40">
