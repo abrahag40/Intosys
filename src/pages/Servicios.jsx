@@ -213,7 +213,7 @@ export const Servicios = () => {
           <div className="col-sm-4">
             <h6> {t('ServicesGeo_PrecenceDirect')} </h6>
             <img
-              src="/img/servicios/mapa1.png"
+              src={`/img/servicios/presencia_directa-${i18n.language}.png`}
               style={{ width: "100%" }}
               alt=""
             />
