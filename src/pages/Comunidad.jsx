@@ -9,7 +9,7 @@ export const Comunidad = () => {
   return (
     <>
       <img
-        src="/img/empresas/clientesPortada.png"
+        src={`/img/empresas/clientesPortada-${i18n.language}.png`}
         style={{ width: "100%" }}
         alt=""
       />

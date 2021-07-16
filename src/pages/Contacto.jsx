@@ -8,7 +8,7 @@ export const Contacto = () => {
   return (
     <>
       <img
-        src="/img/contacto/contacto_portada.png"
+        src={`/img/contacto/contacto_portada-${i18n.language}.png`}
         style={{ width: "100%" }}
         alt=""
       />
@@ -20,7 +20,7 @@ export const Contacto = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8">
-                <h1 style={{ color: "#19679e" }} >En breve nos pondremos en contacto con usted</h1>
+                <h1 style={{ color: "#19679e" }} > {t('Contact_Soon')} </h1>
                 <br />
                 <br />
                 <Form.Group>
@@ -30,7 +30,7 @@ export const Contacto = () => {
                         className="form-control"
                         id="input-styles2"
                         type="text"
-                        placeholder="Nombre"
+                        placeholder={t('Contact_Name')}
                       />
                     </div>
                   </div>
@@ -41,7 +41,7 @@ export const Contacto = () => {
                         className="form-control"
                         id="input-styles2"
                         type="email"
-                        placeholder="Email"
+                        placeholder={t('Contact_email')}
                       />
                     </div>
                     <div className="col-lg-6">
@@ -79,7 +79,7 @@ export const Contacto = () => {
                         className="form-control"
                         id="input-styles2"
                         type="text"
-                        placeholder="Localidad"
+                        placeholder={t('Contact_Town')}
                       />
                     </div>
                     <div className="col-lg-6">

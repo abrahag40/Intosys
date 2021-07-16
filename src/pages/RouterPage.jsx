@@ -53,28 +53,28 @@ export const RouterPage = () => {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <Link className="nav-item nav-link" to="/Inicio">
-              Inicio
+              {t('mennu_Inicio')}
             </Link>
             <Link className="nav-item nav-link" to="/NuestraEmpresa">
-              Nuestra Empresa
+              {t('mennu_NuestraEmpresa')}
             </Link>
             <Link className="nav-item nav-link" to="/Servicios">
-              Servicios y Cobertura Geográfica
+            {t('ServicesGeo_Technology')}
             </Link>
             <Link className="nav-item nav-link" to="/NuestrosClientes">
-              Nuestros Clientes
+              {t('mennu_NuestrosClientes')}
             </Link>
             <Link className="nav-item nav-link" to="/Noticias">
-              Noticias
+              {t('mennu_Noticias')}
             </Link>
             <Link className="nav-item nav-link" to="/Bolsa">
-              Bolsa
+              {t('mennu_Bolsa')}
             </Link>
           </div>
         </div>
       <div className="d-flex" style={{ alignItems: 'center' }}>
           <Link className="nav-item nav-link" style={{ fontSize: 20 }} to="/Contacto">
-            Contacto
+            {t('mennu_Contacto')}
           </Link>
           {Object.keys(lngs).map((lng) => {
             if (lng ==="en") {

@@ -145,12 +145,19 @@ const resources = {
         "lista_gelantibacterial": "Antibacterial gel.",
         "lista_cubrebocas": "Facemask.",
         "lista_careta": "Mask (in case of the field services area).",
-        "lista_aerosoldesinfectante": "Disinfectant spray",
+        "lista_aerosoldesinfectante": "Disinfectant spray.",
         "lista_microfibra": "Microfiber.",
         "lista_toallitas": "Disinfectant wipes.",
         "lista_pulsera": "Bracelet with antibacterial gel.",
         "lista_jabon": "Laminated soap",
         "lista_guantes": "Disposable gloves.",
+
+        "mennu_Inicio": "Home",
+        "mennu_NuestraEmpresa": "Our Company",
+        "mennu_NuestrosClientes": "Our Clients",
+        "mennu_Noticias": "News",
+        "mennu_Bolsa": "Job",
+        "mennu_Contacto": "Contact",
 
     }
   },
@@ -301,6 +308,13 @@ const resources = {
         "lista_jabon": "Jabón laminado.",
         "lista_guantes": "Guantes desechables.",
 
+        "mennu_Inicio": "Inicio",
+        "mennu_NuestraEmpresa": "Nuestra Empresa",
+        "mennu_NuestrosClientes": "Nuestros Clientes",
+        "mennu_Noticias": "Noticias",
+        "mennu_Bolsa": "Bolsa",
+        "mennu_Contacto": "Contacto",
+
     }
   },
   por: {
@@ -446,8 +460,15 @@ const resources = {
       "lista_microfibra": "Microfibra.",
       "lista_toallitas": "Lenços desinfetantes.",
       "lista_pulsera": "Pulseira com gel antibacteriano.",
-      "lista_jabon": "Sabonete laminado",
+      "lista_jabon": "Sabonete laminado.",
       "lista_guantes": "Luvas descartáveis.",
+
+      "mennu_Inicio": "Home",
+      "mennu_NuestraEmpresa": "Nossa Empresa",
+      "mennu_NuestrosClientes": "Nossos Clientes",
+      "mennu_Noticias": "Notícias",
+      "mennu_Bolsa": "Trabalhe conosco",
+      "mennu_Contacto": "Contacto",
 
     }
   }

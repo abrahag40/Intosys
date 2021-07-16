@@ -17,7 +17,7 @@ export const Servicios = () => {
   return (
     <>
       <img
-        src="/img/servicios/portada_servicios.jpg"
+        src={`/img/servicios/portada_servicios-${i18n.language}.png`}
         style={{ width: "100%" }}
         alt=""
       />

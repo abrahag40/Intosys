@@ -9,7 +9,7 @@ export const BolsaTrabajo = () => {
   return (
     <>
       <img
-        src="/img/bolsaTrabajo/bolsa_portada.jpg"
+        src={`/img/bolsaTrabajo/bolsa_portada-${i18n.language}.png`}
         style={{ width: "100%" }}
         alt=""
       />

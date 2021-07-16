@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 export const Inicio = () => {
   let history = useHistory();
   const { t, i18n } = useTranslation();
-
+  console.log(i18n.language);
   const handleClick = () => {
     history.push("/Noticias");
   }
@@ -19,7 +19,7 @@ export const Inicio = () => {
     <>
     <Router>
       <img
-        src="/img/inicio/inicio_portada.png"
+        src={`/img/inicio/inicio_portada-${i18n.language}.png`}
         style={{ width: "100%" }}
         alt=""
       />

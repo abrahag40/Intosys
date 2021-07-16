@@ -5,11 +5,10 @@ export const Noticias = () => {
 
   const { t, i18n } = useTranslation();
 
-
   return (
     <>
       <img
-        src="/img/noticias/noticias_portada.jpg"
+        src={`/img/noticias/noticias_portada-${i18n.language}.png`}
         style={{ width: "100%" }}
         alt=""
       />
@@ -53,15 +52,15 @@ export const Noticias = () => {
                   </div>
                   <div style={{ padding: "20px 0px 5px 30px" }}>
                     <ul>
-                      <li> {t('lista_gelantibacterial')} Gel antibacterial.</li>
-                      <li> {t('lista_cubrebocas')} Cubrebocas</li>
-                      <li> {t('lista_careta')} Careta (en caso del área de servicios de campo). </li>
-                      <li> {t('lista_aerosoldesinfectante')} Aerosol desinfectante</li>
-                      <li> {t('lista_microfibra')} Microfibra</li>
-                      <li> {t('lista_toallitas')} Toallitas desinfectantes.</li>
-                      <li> {t('lista_pulsera')} Pulsera con gel antibacterial.</li>
-                      <li> {t('lista_jabon')} Jabón laminado</li>
-                      <li> {t('lista_guantes')} Guantes desechables</li>
+                      <li> {t('lista_gelantibacterial')} </li>
+                      <li> {t('lista_cubrebocas')} </li>
+                      <li> {t('lista_careta')} </li>
+                      <li> {t('lista_aerosoldesinfectante')} </li>
+                      <li> {t('lista_microfibra')} </li>
+                      <li> {t('lista_toallitas')} </li>
+                      <li> {t('lista_pulsera')} </li>
+                      <li> {t('lista_jabon')} </li>
+                      <li> {t('lista_guantes')} </li>
                     </ul>
                   </div>
                   <div className="post-text">
