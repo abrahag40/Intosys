@@ -180,6 +180,7 @@ export const Inicio = () => {
                       </div>
                       <div className="textBlock">
                         {t('Home_COVID-19Text3')}
+                        <span style={{ color: 'blue', cursor: 'pointer', marginLeft: 4 }} onClick={handleClick}>{t('Home_COVID-19Text4')}</span>
                       </div>
                     </div>
                   </div>

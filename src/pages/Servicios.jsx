@@ -234,21 +234,21 @@ export const Servicios = () => {
           </div>
           <div className="col-sm-4">
             <h6> {t('ServicesGeo_Presence')}</h6>
-            <p>• {t('pais_jamaica')} Jamaica.</p>
-            <p>• {t('pais_haiti')} Haití.</p>
-            <p>• {t('pais_republicadominicaca')} República Dominicana.</p>
-            <p>• {t('pais_bahamas')} Bahamas.</p>
-            <p>• {t('pais_anguila')} Anguila.</p>
-            <p>• {t('pais_antiguaybarbuda')} Antigua y Barbuda.</p>
-            <p>• {t('pais_guadalupe')} Guadalupe.</p>
-            <p>• {t('pais_dominica')} Dominica.</p>
-            <p>• {t('pais_martinica')} Martinica.</p>
-            <p>• {t('pais_barbados')} Barbados.</p>
-            <p>• {t('pais_granada')} Granada.</p>
-            <p>• {t('pais_aruba')} Aruba.</p>
-            <p>• {t('pais_curazao')} Curazao.</p>
-            <p>• {t('pais_cuba')} Cuba.</p>
-            <p>• {t('pais_islascaiman')} Islas Caimán.</p>
+            <p>• {t('pais_jamaica')} </p>
+            <p>• {t('pais_haiti')} </p>
+            <p>• {t('pais_republicadominicaca')} </p>
+            <p>• {t('pais_bahamas')} </p>
+            <p>• {t('pais_anguila')} </p>
+            <p>• {t('pais_antiguaybarbuda')} </p>
+            <p>• {t('pais_guadalupe')} </p>
+            <p>• {t('pais_dominica')} </p>
+            <p>• {t('pais_martinica')} </p>
+            <p>• {t('pais_barbados')} </p>
+            <p>• {t('pais_granada')} </p>
+            <p>• {t('pais_aruba')} </p>
+            <p>• {t('pais_curazao')} </p>
+            <p>• {t('pais_cuba')} </p>
+            <p>• {t('pais_islascaiman')} </p>
           </div>
         </div>
       </div>

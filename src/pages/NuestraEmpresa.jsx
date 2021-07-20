@@ -225,6 +225,8 @@ export const NuestraEmpresa = () => {
                 <div className="content-row-item content-row-body">
                   <div className="content-row-text" style={{ fontSize: 20, textAlign: 'justify' }}>
                     {t('OurCompany_CommunityText')}
+                    <a href='https://worldvisionmexico.org.mx/' style={{ marginLeft: 4 }}>{t('OurCompany_CommunityText2')}</a>
+                    {t('OurCompany_CommunityText3')}
                   </div>
                   <img src="img/nosotros/world_vision.png" alt="" />
                 </div>

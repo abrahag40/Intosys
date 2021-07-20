@@ -23,7 +23,8 @@ const resources = {
         "Home_COVID-19": "COVID-19 a new normal.",
         "Home_COVID-19Text": "Learn about the health measures that we promote in our employees.",
         "Home_COVID-19Text2": "We are operating under the new normal, we respect the laws, all our service processes have preventive measures that minimize the risks of contagion.",
-        "Home_COVID-19Text3": "Our collaborators have 7x24 sanitizing supplies available regionally and are supported by a COVID-19 Risk Management Protocol.",
+        "Home_COVID-19Text3": "Our collaborators have 7x24 sanitizing supplies available regionally and are supported by a Risk Management Protocol",
+        "Home_COVID-19Text4": "COVID-19.",
 
         "OurCompany_Us": "Us",
         "OurCompany_UsText": "In Intosys we form a full oriented company to provide Information Technology services to Manufacturers of Information Technologies, Globalizers and Large Distributors. We started in 2000 and we have staff with more than 25 years of experience in Technical and Logistics Services, covering the entire American continent.",
@@ -34,7 +35,9 @@ const resources = {
         "OurCompany_ISO": "ISO 20000 Quality",
         "OurCompany_ISOText": "In Intosys we operate under the international quality standard ISO 20000 in all our processes, seeking to keep them agile and functional based on the method of continuous improvement.",
         "OurCompany_Community": "Community",
-        "OurCompany_CommunityText": "At Intosys, we agree with the idea of giving back to our community some of the much it does not give. That is why, through the NGO World Vision, we support children in precarious economic situations to receive health, clothing, and education services. Intosys is part of the \"Sponsor a Story\" program",
+        "OurCompany_CommunityText": "At Intosys, we agree with the idea of giving back to our community some of the much it does not give. That is why, through the NGO",
+        "OurCompany_CommunityText2": "World Vision",
+        "OurCompany_CommunityText3": ", we support children in precarious economic situations to receive health, clothing, and education services. Intosys is part of the \"Sponsor a Story\" program",
         
         "ServicesGeo_Technology": "Services and Geographic Coverage",
         "ServicesGeo_Logistics": "Logistics Services",
@@ -179,7 +182,8 @@ const resources = {
         "Home_COVID-19": "COVID-19 una nueva normalidad",
         "Home_COVID-19Text": "Conoce las medidas de Sanidad que fomentamos en nuestros empleados.",
         "Home_COVID-19Text2": "Estamos operando bajo la nueva normalidad, respetamos las leyes, todos nuestros procesos de servicio cuentan con medidas preventivas que minimizan los riesgos de contagio.",
-        "Home_COVID-19Text3": "Nuestros colaboradores cuentan con suministros sanitizantes disponibles 7x24 a nivel regional y están soportados por un Protocolo de Manejo de Riesgos de COVID-19.",
+        "Home_COVID-19Text3": "Nuestros colaboradores cuentan con suministros sanitizantes disponibles 7x24 a nivel regional y están soportados por un Protocolo de Manejo de Riesgos de",
+        "Home_COVID-19Text4": "COVID-19.",
 
         "OurCompany_Us": "Nosotros",
         "OurCompany_UsText": "En Intosys conformamos una empresa totalmente orientada a proveer servicios de Tecnologías de la Información a Fabricantes de Tecnologías de Información, Globalizadores y Grandes Distribuidores. Iniciamos en el año 2000 y contamos con personal con más de 25 años de experiencia en Servicios Técnicos y Logísticos, cubriendo la totalidad del continente americano.",
@@ -190,7 +194,9 @@ const resources = {
         "OurCompany_ISO": "Calidad ISO 20000",
         "OurCompany_ISOText": "En Intosys operamos bajo la norma internacional de Calidad ISO 20000 en todos nuestros procesos, buscando mantenerlos ágiles y funcionales en base al método de mejora continua",
         "OurCompany_Community": "Comunidad",
-        "OurCompany_CommunityText": "En Intosys, comulgamos con la idea de devolver, a nuestra comunidad, algo de lo mucho que no da. Es por eso que, a través de la ONG World Vision hacemos el apoyo a niños en situación económica precaria para recibir servicios de salud, vestido y educación. Intosys forma parte del programa “Patrocina una Historia”.",
+        "OurCompany_CommunityText": "En Intosys, comulgamos con la idea de devolver, a nuestra comunidad, algo de lo mucho que no da. Es por eso que, a través de la ONG",
+        "OurCompany_CommunityText2": "World Vision",
+        "OurCompany_CommunityText3": ", hacemos el apoyo a niños en situación económica precaria para recibir servicios de salud, vestido y educación. Intosys forma parte del programa “Patrocina una Historia”.",
         
         "ServicesGeo_Technology": "Servicios y Cobertura Geográfica",
         "ServicesGeo_Logistics": "Servicios de Logística",
@@ -334,7 +340,8 @@ const resources = {
       "Home_COVID-19": "COVID-19 um novo normal",
       "Home_COVID-19Text": "Lear sobre as medidas de saúde que promovemos em nossos colaboradores.",
       "Home_COVID-19Text2": "Estamos operando sob o novo normal, respeitamos as leis, todos os nossos processos de atendimento têm medidas preventivas que minimizam os riscos do contágio.",
-      "Home_COVID-19Text3": "Nossos colaboradores têm suprimentos higienizantes 7x24 disponíveis regionalmente e são suportados por um Protocolo de Gerenciamento de Riscos COVID-19.",
+      "Home_COVID-19Text3": "Nossos colaboradores têm suprimentos higienizantes 7x24 disponíveis regionalmente e são suportados por um Protocolo de Gerenciamento de Riscos",
+      "Home_COVID-19Text4": "COVID-19.",
 
       "OurCompany_Us": "Nos",
       "OurCompany_UsText": "Na Intosys formamos uma empresa totalmente orientada para fornecer serviços de Tecnologia da Informação aos Fabricantes de Tecnologias da Informação, Globalizadores e Grandes Distribuidores. Começamos em 2000 e temos equipe com mais de 25 anos de experiência em Serviços Técnicos e Logísticos, abrangendo todo o continente americano.",
@@ -345,7 +352,9 @@ const resources = {
       "OurCompany_ISO": "Qualidade ISO 20000",
       "OurCompany_ISOText": "Na Intosys atuamos sob o padrão internacional de qualidade ISO 20000 em todos os nossos processos, buscando mantê-los ágeis e funcionais com base no método de melhoria contínua.",
       "OurCompany_Community": "Comunidade",
-      "OurCompany_CommunityText": "Na Intosys, concordamos com a ideia de devolver à nossa comunidade um pouco do que ela não dá. Por isso, por meio da ONG Visão Mundial, apoiamos crianças em situação econômica precária para receber serviços de saúde, vestuário e educação. Intosys faz parte do programa \"Patrocine uma História\".",
+      "OurCompany_CommunityText": "Na Intosys, concordamos com a ideia de devolver à nossa comunidade um pouco do que ela não dá. Por isso, por meio da ONG",
+      "OurCompany_CommunityText2": "Visão Mundial",
+      "OurCompany_CommunityText3": ", apoiamos crianças em situação econômica precária para receber serviços de saúde, vestuário e educação. Intosys faz parte do programa \"Patrocine uma História\".",
       
       "ServicesGeo_Technology": "Serviços e Cobertura Geográfica",
       "ServicesGeo_Logistics": "Serviços Logísticos",
